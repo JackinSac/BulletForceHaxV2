@@ -61,7 +61,7 @@
                         }
                     }
 
-                    if (name == '_JS_WebRequest_Create') {
+                    /*if (name == '_JS_WebRequest_Create') {
                         console.log('hooking _JS_WebRequest_Create');
                         let orig_webRequestCreate = imports.a[fn];
                         imports.a[fn] = function (url, method) {
@@ -70,7 +70,7 @@
                             console.log("_JS_WebRequest_Create", ptr_to_str(url), ptr_to_str(method), ret);
                             return ret;
                         }
-                    }
+                    }*/
                 }
             }
         }
